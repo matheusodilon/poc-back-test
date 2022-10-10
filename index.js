@@ -6,6 +6,12 @@ var app = express()
 app.use(bodyParser.json())
 app.use(cors())
 
+const cars = require('./cars.json');
+
+app.get('/photos', async function (req, res) {
+  res.json(cars)
+})
+
 app.get('/random', async function (req, res) {
   const randomNumber = Math.floor(Math.random() * 100);
   const data = randomNumber;
