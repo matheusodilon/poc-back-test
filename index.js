@@ -7,9 +7,14 @@ app.use(bodyParser.json())
 app.use(cors())
 
 const cars = require('./cars.json');
+const exampleData = require('./example.json');
 
 app.get('/photos', async function (req, res) {
   res.json(cars)
+})
+
+app.get('/info', async function (req, res) {
+  res.json(exampleData)
 })
 
 app.get('/random', async function (req, res) {

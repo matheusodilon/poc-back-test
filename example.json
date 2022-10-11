@@ -1,0 +1,26 @@
+{
+  "name": "Lorem Ipsum",
+  "logo": "https://assets.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e3a57bdb30414bf9cea_Product_Dark.svg",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Aenean Morbi",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla ipsum non mi vulputate tristique"
+    },
+    {
+      "id": 2,
+      "title": "Curabitur ultrices",
+      "description": "Proin suscipit sem porta venenatis dapibus. Aliquam eget aliquam magna."
+    },
+    {
+      "id": 3,
+      "title": "Lectus in blandit",
+      "description": "Praesent vehicula lorem nec tempor posuere. Quisque id sem pulvinar massa malesuada aliquam at quis dui."
+    },
+    {
+      "id": 4,
+      "title": "Duis semper",
+      "description": "Ut pellentesque nisl vel arcu ultrices ultrices. Cras non tellus vel ex hendrerit mattis nec sit amet turpis."
+    }
+  ]
+}
