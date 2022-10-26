@@ -33,6 +33,14 @@ app.post('/sum', (req, res) => {
   })
 })
 
+app.post('/inspection-photo', (req, res) => {
+  const result = req.body;
+  console.log('payload', result);
+  res.send({
+    data: { result }
+  })
+})
+
 app.listen(process.env.PORT || 3000, function () {
   console.log('Example app listening on port 3000!')
 })
